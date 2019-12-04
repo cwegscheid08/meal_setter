@@ -12,8 +12,28 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :new %>
-    <%= form.text_field :new %>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :category %>
+    <%= form.text_field :category %>
+  </div>
+
+  <div class="field">
+    <%= form.label :main_ingredient %>
+    <%= form.text_field :main_ingredient %>
+  </div>
+
+  <div class="field">
+    <%= form.label :cooked %>
+    <%= form.number_field :cooked %>
+  </div>
+
+  <div class="field">
+    <%= form.label :ingredients %>
+    <%= form.text_field :ingredients %>
   </div>
 
   <div class="actions">
