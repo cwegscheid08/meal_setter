@@ -16,7 +16,6 @@ class RecipesTest < ApplicationSystemTestCase
 
     fill_in "Category", with: @recipe.category
     fill_in "Cooked", with: @recipe.cooked
-    fill_in "Ingredients", with: @recipe.ingredients
     fill_in "Main ingredient", with: @recipe.main_ingredient
     fill_in "Name", with: @recipe.name
     click_on "Create Recipe"
@@ -31,7 +30,6 @@ class RecipesTest < ApplicationSystemTestCase
 
     fill_in "Category", with: @recipe.category
     fill_in "Cooked", with: @recipe.cooked
-    fill_in "Ingredients", with: @recipe.ingredients
     fill_in "Main ingredient", with: @recipe.main_ingredient
     fill_in "Name", with: @recipe.name
     click_on "Update Recipe"
